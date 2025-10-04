@@ -1,7 +1,7 @@
 # python_sep_2025
 Python Demo notebooks and practice series
 
-## Notes 
+## notes 
 refer to notes folder for everyday notes 
 
 ## scripts 
