@@ -1,0 +1,50 @@
+
+Date : 29-09-2025
+
+Items covered : 
+1) Path environment variable in detail
+2) executing python from any windows location
+3) pycharm download and installation
+(https://www.jetbrains.com/pycharm/download)
+4) pycharm : run a python script
+5) pycharm : debug a python script using debug point
+
+Notes: 
+
+1) Whenever you type any command in command prompt, it checks for that command in the PATH environment variable folder entries
+  a) if that command you type is available in those folders, it will execute that command
+  b) if the command is not available with PATH folder entries, but available in current working directory, it will execute 
+  c) if the command is not available with PATH folder entries or in the current working directory, it will throw an error like 
+	'command' is not recognized as an internal or external command,
+	operable program or batch file.
+
+2) Understanding python installation folder when python downloaded from windows store 
+	a) Where did the python installation happen? (in my case)
+	C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2032.0_x64__qbz5n2kfra8p0\
+	b) But setting path to this location to this error, is not launching python with error 
+      "Access is denied"
+	c) So copy the contents of this folder to another location in C drive or D drive where you have write access.
+	d) I have copied contents 
+		FROM C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2032.0_x64__qbz5n2kfra8p0\
+		TO   D:\softwares\python-3.13
+	e) Then included "D:\softwares\python-3.13" in the PATH environment variable	
+	f) Open new command prompt and typed python and it worked
+
+3) Alternative way for setting path for python
+ (if you dont want to copy the installation contents to another location):
+	a) Understanding Home Directory: 
+ 	   C:\Users\Jagadeesh Verri\
+	b) Locate AppData(Hidden Folder) inside home directory
+	   C:\Users\Jagadeesh Verri\AppData\
+	c) Inside AppData follow the below path and look for python folder
+	   C:\Users\Jagadeesh Verri\AppData\Local\Microsoft\WindowsApps\
+	d) Locate a folder starting with PythonSoftwareFoundation
+	   in my case : PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0
+	e) Include this folder where python.exe is available in the PATH environment variable
+	   C:\Users\Jagadeesh Verri\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0	
+	f) Launch a new shell and test it by typing python in command prompt
+
+3) To execute python script use 
+	python script_name.py
+	Example: 
+	python D:\work\bigdata\sep_2025_batch\scripts\welcome.py

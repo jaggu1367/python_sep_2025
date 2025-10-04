@@ -1,0 +1,17 @@
+Date : 26-09-2025
+
+Topics covered:
+Python installation 
+Variables and datatypes 
+simple if else 
+python notebook in databricks
+ 
+inbuilt functions: 
+type()
+help()
+print()
+len()
+
+Jupyter notebook 
+Databricks notebook
+/Workspace/Users/vjagadeesh113@gmail.com/

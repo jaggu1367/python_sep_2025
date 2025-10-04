@@ -1,0 +1,31 @@
+To start jupyter notebook server:
+jupyter notebook
+
+To access notebooks from the browser: 
+http://localhost:8888/tree
+
+def method_name(parameters):
+    line 1
+    line 2 
+    return something or do nothing
+	
+TASK : Convert dollors to euros 
+
+dollar_amount = 10 
+conversion_rate = 0.852 
+
+euro_amount = dollor_amount * conversion_rate
+
+euro_amount = 10 * 0.852 
+			= 8.52
+
+practice methods using methods.ipynb 
+practice collections : list using lists.ipynb
+
+To convert any notebook to py script using jupyter cell command: 
+
+!jupyter nbconvert --to python methods.ipynb
+RESULT : methods.py file is created in the same folder as that of the notebook
+
+!jupyter nbconvert --to python lists.ipynb
+RESULT : lists.py file is created in the same folder as that of the notebook

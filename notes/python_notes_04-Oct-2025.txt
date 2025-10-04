@@ -1,0 +1,61 @@
+1) installing python 
+
+https://www.python.org/downloads/ 
+version : 3.13.7
+Run as administrator
+
+Include below in Path system environment variables:
+C:\Program Files\Python313\
+C:\Program Files\Python313\Scripts\
+
+2) pip - Package installer for Python 
+
+Requirement: 
+I need jupyter notebook to work with python 
+IDE - eclipse, IntelliJ Idea, PyCharm, **Jupyter
+
+syntax: 
+pip install package_name=1.0.0 
+
+To install: 
+
+pip install notebook
+
+jupyter notebook
+
+**Just for information: 
+To remove a package: 
+pip uninstall package_name
+
+Download pycharm : 
+https://www.jetbrains.com/pycharm/download/
+
+Some default methods available directly : 
+
+print()
+type()
+help()
+len()
+min()
+max()
+
+To execute multiple commands placed in .py file use the below syntax: 
+
+python script_name.py 
+
+
+The python jupyter notebooks discussed today: 
+
+gap_demo.ipynb
+data_types_demo.ipynb
+f_string_demo.ipynb
+compare_numbers_demo.ipynb
+None_Demo.ipynb
+methods_demo.ipynb
+lists.ipynb
+
+The databricks python notebooks for your reference: 
+
+list_demo.ipynb
+list_practice.ipynb
+

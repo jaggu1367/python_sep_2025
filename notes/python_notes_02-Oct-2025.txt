@@ -1,0 +1,29 @@
+
+1) installing python 
+2) installing jupyter notebook
+3) sign up for databricks community edition 
+4) launching python shell using cmd/ python launcher 
+5) launching jupyter notebook
+6) export notebook to a python file 
+7) create a notebook in databricks 
+8) export notebook as executable script in jupyter/databricks 
+9) Python : variables and datatypes 
+10) Python: Methods 
+11) Python : Collections: Lists
+
+a = [10, 20, 30, 40, 50]
+print(a)
+a.append(60)
+print(a)
+a.remove(30)
+print(a)
+a.reverse()
+print(a)
+a.sort()
+print(a)
+a.sort(reverse=True)
+print(a)
+
+ 
+
+	

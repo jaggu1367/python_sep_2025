@@ -1,0 +1,85 @@
+To use another version of python, install and use that version : 
+To temporarily change python version 
+set PATH="C:\Python27";%PATH%
+python --version 
+
+To check python version installed: 
+python --version
+
+Python 3.13 Installer added two entries in PATH: 
+
+1) C:\Program Files\Python313\         --> for python.exe 
+2) C:\Program Files\Python313\Scripts\ --> for pip.exe 
+
+pip: 
+1) pip is a package installer for Python 
+2) pip allows users to install and manage additional Python packages
+
+Some commands to check : 
+pip help 
+pip list 
+pip install 
+pip uninstall
+
+How to install jupyter notebook:
+pip install notebook
+
+How to run:
+jupyter notebook 
+
+ui is available at : 
+http://localhost:8888/tree
+
+notebooks are available at User home directory in windows : 
+C:\Users\Jagadeesh Verri\
+
+Create a new notebook use the below code: 
+
+TASK 1: To compare two numbers a and b 
+
+a=100
+b=100
+
+if a>b:
+    print(f"{a} is greater than {b}")
+elif a<b:
+    print(f"{a} is less than {b}")
+else:
+    print(f"{a} is equal to {b}")
+
+
+TASK 2: To compare two numbers c and d 
+
+c=200
+d=300
+
+if c>d:
+    print(f"{c} is greater than {d}")
+elif c<d:
+    print(f"{c} is less than {d}")
+else:
+    print(f"{c} is equal to {d}")
+	
+If you compare TASK 1 and TASK 2 code, both are same.
+
+To utilize the reusable code, we will define methods 
+
+# define a method to compare two numbers
+def compare(a,b):
+    #compare a and b
+    if a>b:
+        print(f"{a} is greater than {b}")
+    elif a<b:
+        print(f"{a} is less than {b}")
+    else:
+        print(f"{a} is equal to {b}")
+		
+# defining the variables 
+a=1000
+b=2000
+
+# calling the method 
+compare(a,b)
+
+# call the method without defining variables(directly passing values)
+compare(200,300)
