@@ -11,3 +11,6 @@ git push
 URL to access resources: 
 
 https://github.com/jaggu1367/python_demo_project
+
+you can also access the resources using the git url: 
+https://github.com/jaggu1367/python_demo_project.git
