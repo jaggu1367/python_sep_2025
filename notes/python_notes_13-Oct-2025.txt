@@ -9,8 +9,27 @@ git commit -m "initial setup"
 git push
 
 URL to access resources: 
-
 https://github.com/jaggu1367/python_demo_project
 
 you can also access the resources using the git url: 
 https://github.com/jaggu1367/python_demo_project.git
+
+
+List comprehension: 
+A simple way of creating python list from another iterable (like another list or string or tuple or range)
+
+syntax: [<expression> <for declaration> <condition>]
+
+Example 1: Creating list b using items of list a
+a = [1, 2, 3, 4, 5]
+b = [item for item in a]
+print(b)
+
+Example 2: Creating list b using items of list a but including only even numbers
+a = [1, 2, 3, 4, 5]
+b = [item for item in a if a%2==0]
+print(b)
+
+For step by step understanding of list comprehension: 
+download and open the notebook in databricks workspace and practice the list comprehension step by step with examples
+https://github.com/jaggu1367/python_sep_2025/blob/main/scripts/list_comprehension.py
