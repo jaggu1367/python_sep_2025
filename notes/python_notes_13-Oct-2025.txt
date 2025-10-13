@@ -1,0 +1,13 @@
+GIT STEPS to push code to remote git repository: 
+
+git clone https://github.com/jaggu1367/python_demo_project.git
+cd python_demo_project
+git status
+git add demo.py 
+git status
+git commit -m "initial setup"
+git push
+
+URL to access resources: 
+
+https://github.com/jaggu1367/python_demo_project
