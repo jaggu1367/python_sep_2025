@@ -22,7 +22,7 @@ Example:
 
 [name for name in names if 'a' in name]
 
-notebook : https://github.com/jaggu1367/python_sep_2025/blob/main/scripts/list_comprehension_demo.ipynb
+jupyter notebook : https://github.com/jaggu1367/python_sep_2025/blob/main/scripts/list_comprehension_demo.ipynb
 
 created dictionary
  {
@@ -40,4 +40,4 @@ created dictionary
  }
 
  headsup notebook for dictionary to download and import in databricks and practice:
- notebook : https://github.com/jaggu1367/python_sep_2025/blob/main/scripts/dictionary_demo.py
+ databricks notebook : https://github.com/jaggu1367/python_sep_2025/blob/main/scripts/dictionary_demo.py
