@@ -2,7 +2,7 @@
 # MAGIC %md
 # MAGIC # 1: Creating a Dictionary
 # MAGIC
-# MAGIC Let's create a Python dictionary with initial key-value pairs.
+# MAGIC Let's create a Python dictionary with initial key-value pairs
 
 # COMMAND ----------
 
