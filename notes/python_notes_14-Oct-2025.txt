@@ -1,0 +1,43 @@
+
+creating list
+
+names =
+['anusha',
+ 'hemanth',
+ 'hiranmai',
+ 'lavanya',
+ 'nagarjuna',
+ 'naveen',
+ 'pavan',
+ 'gopi',
+ 'sunny',
+ 'syed',
+ 'gowtham']
+
+discussed list comprehension
+
+[<expression> <for declaration> <if condition>]
+
+Example:
+
+[name for name in names if 'a' in name]
+
+notebook : https://github.com/jaggu1367/python_sep_2025/blob/main/scripts/list_comprehension_demo.ipynb
+
+created dictionary
+ {
+ 'anusha' : 1,
+ 'hemanth' : 2,
+ 'hiranmai' : 3,
+ 'lavanya' : 4,
+ 'nagarjuna' : 5,
+ 'naveen' : 2,
+ 'pavan' : 1,
+ 'gopi' : 0,
+ 'sunny' : 1,
+ 'syed' : 4,
+ 'gowtham' : 5
+ }
+
+ headsup notebook for dictionary to download and import in databricks and practice:
+ notebook : https://github.com/jaggu1367/python_sep_2025/blob/main/scripts/dictionary_demo.py
