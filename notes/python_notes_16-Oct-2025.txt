@@ -1,0 +1,66 @@
+SQL - Structured Query Language
+
+RDMS - Relational Database Management System 
+
+Different database vendors in market : 
+
+Oracle - Oracle
+MySQL - Oracle
+SQL Server - Microsoft 
+SQLLite 
+Postgres 
+DB2 from IBM
+Teradata 
+
+Below statements are common across all the above RDMS systems
+CREATE 
+SELECT
+DELETE
+UPDATE 
+
+
+Warehouses 
+databricks SQL vs Snowflake 
+
+Git and GitHub: 
+
+Git: 
+Git is a version control system that helps track 
+changes in code and collaborate with others.
+
+GitHub:
+GitHub is an online platform for hosting 
+and sharing Git repositories.
+
+GIT - Commands
+git clone 
+git status
+git add 
+git commit 
+git push 
+git pull
+
+Other platforms hosting Git repositories
+*github
+*bitbucket
+gitlab 
+AzureDevOps
+
+To convert a python file 
+with .py extension as a databricks notebook source 
+we nee to add the below line in the begining of the .py file 
+# Databricks notebook source
+
+Example : to convert demo.py to demo notebook in databricks 
+# Databricks notebook source
+a = 10 
+b = 20 
+c = a + b
+print(c)
+
+To generate a sample dict for practice 
+with nested values using ChatGpt/Gemini/Copilot 
+use the below prompt 
+
+```generate 5 students python dict with keys as names and values as name, marks, age, gender, email, hobbies
+note: marks should be a dict, hobbies should be a list ```
