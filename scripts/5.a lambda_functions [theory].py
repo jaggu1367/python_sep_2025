@@ -208,6 +208,7 @@ print("Count:", len(vowel_words))
 nums = [1, 2, 3, 4, 5, 6]
 even_product = reduce(lambda x, y: x * y, filter(lambda x: x % 2 == 0, nums))
 print("Product of even numbers:", even_product)
+
 # 5. Sort a list of tuples by the last character of the second element
 pairs = [('a', 'cat'), ('b', 'dog'), ('c', 'bat')]
 sorted_pairs = sorted(pairs, key=lambda x: x[1][-1])
