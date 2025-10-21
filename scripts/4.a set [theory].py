@@ -65,7 +65,7 @@ print("After discarding 10 (not present):", my_set)
 # COMMAND ----------
 
 # DBTITLE 1,Set Operations - Examples
-a = {1, 2, 3, 4}
+a = {1, 2, 3, 4} 
 b = {3, 4, 5, 6}
 
 print("Set a:", a)
