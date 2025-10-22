@@ -1,3 +1,4 @@
+#Databricks notebook source
 # MAGIC %md
 # ## map(), filter(), reduce(), and sorted() in Python
 # This notebook explains four powerful built-in functions in Python: `map()`, `filter()`, `reduce()`, and `sorted()`. Each section includes theory and examples using named functions (not `lambda`).
