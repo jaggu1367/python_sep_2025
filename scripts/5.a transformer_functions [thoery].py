@@ -117,7 +117,8 @@ print(product)  # Output: 24
 # COMMAND ----------
 
 # DBTITLE 1, Example: Sorting words by length with `sorted()`
-- > **Note**: key is optional. often used for custom sortingdef get_length(word):
+# **Note**: key is optional. often used for custom sorting
+def get_length(word):
     return len(word)
 
 words = ['apple', 'banana', 'kiwi', 'cherry']
