@@ -55,7 +55,7 @@
 
 # COMMAND ----------
 
-# DBTITLE 1, Example: Squaring numbers with `map()`
+# DBTITLE 1,Example: Squaring numbers with `map()`
 def square(x):
     return x * x
 
