@@ -260,7 +260,7 @@ with open("/tmp/seek_example.txt", "r") as f:
 
 # COMMAND ----------
 
-# DBTITLE 1, Demo_seek_from_end
+# DBTITLE 1,*** Demo_seek_from_end
 with open("/tmp/seek_example.txt", "r") as f:
     f.seek(-5, 2)
     print(f.read())
