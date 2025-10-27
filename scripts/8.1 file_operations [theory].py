@@ -260,7 +260,15 @@ with open("/tmp/seek_example.txt", "r") as f:
 
 # COMMAND ----------
 
-# DBTITLE 1,*** Demo_seek_from_end
+# DBTITLE 1,*** Demo_seek_from_end in text mode *** will fail
 with open("/tmp/seek_example.txt", "r") as f:
     f.seek(-5, 2)
     print(f.read())
+
+# COMMAND ----------
+
+# DBTITLE 1,*** Demo_seek_from_end in binary mode *** will work
+with open("/tmp/text.txt", "wb+") as f:
+    f.write(b"hello python")
+    f.seek(-6, 2)
+    print(f.read().decode())
